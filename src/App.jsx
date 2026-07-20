@@ -9,7 +9,7 @@ import Projects from "./sections/Projects";
 import Certifications from "./sections/Certifications";
 import Contact from "./sections/Contact";
 import Background from "./components/Background";
-import Stats from "./sections/stats";
+import Stats from "./sections/Stats";
 import ScrollProgress from "./components/ScrollProgress";
 import BackToTop from "./components/BackToTop";
 import Leadership from "./sections/Leadership";
