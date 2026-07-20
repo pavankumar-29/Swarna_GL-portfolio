@@ -1,0 +1,79 @@
+.certifications{
+    padding:120px 8%;
+    text-align:center;
+}
+
+.cert-heading{
+    max-width:900px;
+    margin:0 auto 70px;
+}
+
+.cert-heading h2{
+    font-size:52px;
+    color:#fff;
+    margin-bottom:20px;
+}
+
+.cert-heading p{
+    color:#d0d0d0;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.cert-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.cert-card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:20px;
+    padding:35px;
+    transition:.35s;
+}
+
+.cert-card:hover{
+    transform:translateY(-10px);
+    border-color:#d4af37;
+    box-shadow:0 20px 45px rgba(212,175,55,.25);
+}
+
+.cert-icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.cert-card h3{
+    color:white;
+    font-size:22px;
+    line-height:1.5;
+    margin-bottom:15px;
+}
+
+.cert-card span{
+    color:#d4af37;
+    font-weight:600;
+}
+
+@media(max-width:900px){
+
+.certifications{
+    padding:100px 7%;
+}
+
+.cert-heading h2{
+    font-size:40px;
+}
+
+.cert-heading p{
+    font-size:16px;
+}
+
+.cert-grid{
+    grid-template-columns:1fr;
+}
+
+}

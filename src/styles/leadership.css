@@ -1,0 +1,79 @@
+.leadership{
+    padding:120px 8%;
+    text-align:center;
+}
+
+.leadership-heading{
+    max-width:900px;
+    margin:0 auto 70px;
+}
+
+.leadership-heading h2{
+    font-size:52px;
+    color:white;
+    margin-bottom:20px;
+}
+
+.leadership-heading p{
+    color:#d0d0d0;
+    font-size:18px;
+    line-height:1.8;
+}
+
+.leadership-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+}
+
+.leadership-card{
+    background:rgba(255,255,255,.05);
+    backdrop-filter:blur(20px);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:25px;
+    padding:35px;
+    transition:.35s;
+}
+
+.leadership-card:hover{
+    transform:translateY(-10px);
+    border-color:#d4af37;
+    box-shadow:0 20px 45px rgba(212,175,55,.25);
+}
+
+.leadership-icon{
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.leadership-card h3{
+    color:white;
+    font-size:24px;
+    margin-bottom:10px;
+}
+
+.leadership-card h4{
+    color:#d4af37;
+    margin-bottom:15px;
+}
+
+.leadership-card p{
+    color:#d0d0d0;
+    line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.leadership{
+    padding:100px 7%;
+}
+
+.leadership-heading h2{
+    font-size:40px;
+}
+
+.leadership-grid{
+    grid-template-columns:1fr;
+}
+
+}
