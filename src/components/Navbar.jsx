@@ -27,7 +27,7 @@ function Navbar() {
       </div>
 
       <a
-        href="/Swarna_GL_Resume.pdf"
+        href="https://drive.google.com/file/d/1dvs2eI02OjZJT3QEVQkPEMn1KYbL-t7B/view?usp=drivesdk"
         download
         className="resume-btn"
       >
