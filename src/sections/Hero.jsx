@@ -69,7 +69,7 @@ function Hero() {
             <button>Contact Me</button>
           </a>
 
-          <a href="/Swarna_GL_Resume.pdf" download>
+          <a href="https://drive.google.com/file/d/1dvs2eI02OjZJT3QEVQkPEMn1KYbL-t7B/view?usp=drivesdk" download>
             <button className="outline">Download Resume</button>
           </a>
         </motion.div>
