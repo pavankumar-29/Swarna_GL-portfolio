@@ -5,7 +5,10 @@ import "../styles/hero.css";
 function Hero() {
   return (
     <section className="hero" id="home">
+
+      {/* LEFT SIDE */}
       <div className="hero-left">
+
         <motion.p
           className="welcome"
           initial={{ opacity: 0, y: 40 }}
@@ -33,15 +36,15 @@ function Hero() {
           <TypeAnimation
             sequence={[
               "Credit Risk Analyst",
-               2000,
+              2000,
               "AML / KYC Analyst",
-               2000,
+              2000,
               "Compliance Analyst",
-               2000,
+              2000,
               "Financial Analyst",
-               2000,
+              2000,
               "Business Development Professional",
-               2000,
+              2000,
             ]}
             wrapper="h2"
             speed={50}
@@ -56,25 +59,47 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          I check things for a living — internal controls, expense records, financial transactions, client documents and I've done it across four internships now: NAF Technology Services, M.K. Dandeker & Co LLP, Schwing Stetter, and Innowell Engineering. Along the way I've reviewed 30+ client documents for onboarding accuracy, audited 15+ clients' financial data, and reconciled 20-30 expense records at a time. Currently finishing my MBA in Financial Services at SRM, with NISM certifications in Equity Derivatives and Mutual Fund Distribution.
+          I check things for a living — internal controls, expense records,
+          financial transactions, client documents and I've done it across
+          four internships now: NAF Technology Services, M.K. Dandeker & Co LLP,
+          Schwing Stetter, and Innowell Engineering. Along the way I've reviewed
+          30+ client documents for onboarding accuracy, audited 15+ clients'
+          financial data, and reconciled 20-30 expense records at a time.
+          Currently finishing my MBA in Financial Services at SRM, with NISM
+          certifications in Equity Derivatives and Mutual Fund Distribution.
         </motion.p>
 
+        {/* BUTTONS */}
         <motion.div
           className="hero-buttons"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
+
+          {/* CONTACT BUTTON */}
           <a href="#contact">
-            <button>Contact Me</button>
+            <button type="button">
+              Contact Me
+            </button>
           </a>
 
-          <a href="https://drive.google.com/file/d/1dvs2eI02OjZJT3QEVQkPEMn1KYbL-t7B/view?usp=drivesdk" download className="resume-btn">
-            <button className="outline">Download Resume</button>
+          {/* DOWNLOAD RESUME BUTTON */}
+          <a
+            href="/resume.pdf"
+            download="Swarna_GL_Resume.pdf"
+            className="resume-btn"
+          >
+            <button type="button" className="outline">
+              Download Resume
+            </button>
           </a>
+
         </motion.div>
+
       </div>
 
+      {/* RIGHT SIDE */}
       <motion.div
         className="hero-right"
         animate={{ y: [0, -15, 0] }}
@@ -84,9 +109,13 @@ function Hero() {
         }}
       >
         <div className="profile-circle">
-  <img src="/WhatsApp Image 2026-07-29 at 10.33.50 AM.jpeg" alt="Swarna GL" />
-</div>
+          <img
+            src="/WhatsApp Image 2026-07-29 at 10.33.50 AM.jpeg"
+            alt="Swarna GL"
+          />
+        </div>
       </motion.div>
+
     </section>
   );
 }
