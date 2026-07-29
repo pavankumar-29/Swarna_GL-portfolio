@@ -88,7 +88,7 @@ function Hero() {
         }}
       >
         <div className="profile-circle">
-  <img src="/hero.jpeg" alt="Swarna GL" />
+  <img src="/WhatsApp Image 2026-07-29 at 10.33.50 AM.jpeg" alt="Swarna GL" />
 </div>
       </motion.div>
     </section>
