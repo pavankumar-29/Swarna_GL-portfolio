@@ -56,11 +56,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          MBA (Financial Services) student with experience in Credit Risk,
-          AML/KYC, Compliance, Financial Analysis, Business Development,
-          Investment Research, SQL, Power BI, Python and Excel.
-          Passionate about solving financial problems through analytical
-          thinking and data-driven decision making.
+          I check things for a living — internal controls, expense records, financial transactions, client documents and I've done it across four internships now: NAF Technology Services, M.K. Dandeker & Co LLP, Schwing Stetter, and Innowell Engineering. Along the way I've reviewed 30+ client documents for onboarding accuracy, audited 15+ clients' financial data, and reconciled 20-30 expense records at a time. Currently finishing my MBA in Financial Services at SRM, with NISM certifications in Equity Derivatives and Mutual Fund Distribution.
         </motion.p>
 
         <motion.div
