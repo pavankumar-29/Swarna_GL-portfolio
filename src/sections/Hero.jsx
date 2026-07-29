@@ -86,7 +86,7 @@ function Hero() {
 
           {/* DOWNLOAD RESUME BUTTON */}
           <a
-            href="/Swarna_Resume_Final.pdf"
+            href="/Swarna_Resume_Final_.pdf"
             download="Swarna_GL_Resume.pdf"
           >
             <button type="button" className="outline">
