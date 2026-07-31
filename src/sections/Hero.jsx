@@ -59,7 +59,7 @@ function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.8 }}
         >
-          I check things for a living — internal controls, expense records,
+          I check things for a living internal controls, expense records,
           financial transactions, client documents and I've done it across
           four internships now: NAF Technology Services, M.K. Dandeker & Co LLP,
           Schwing Stetter, and Innowell Engineering. Along the way I've reviewed
