@@ -23,13 +23,7 @@ function About() {
         <h2>Who Am I?</h2>
 
         <p className="about-intro">
-          I am an MBA (Financial Services) student at SRM Institute of Science
-          and Technology with hands-on experience in Credit Risk Analysis,
-          AML/KYC, Compliance, Business Development and Financial Analysis.
-          I enjoy transforming financial data into actionable business insights
-          using Excel, SQL, Python and Power BI. My goal is to contribute to
-          organizations by solving complex financial problems through analytical
-          thinking, risk assessment and data-driven decision making.
+          I’m someone who genuinely enjoys finding the story behind the numbers. Whether it's analyzing financial statements, exploring market trends, building reports, or solving business problems, I love turning data into meaningful insights that support better decisions. My journey through an MBA in Financial Services, hands-on internships in audit, mortgage operations, and financial analysis has strengthened both my analytical mindset and my attention to detail. Along the way, I've earned Bloomberg and NISM certifications, led student initiatives, organized large-scale events, and learned that collaboration is just as important as technical skills. I'm naturally curious, always eager to learn, and excited by opportunities where finance, strategy, and analytics come together to create real business impact. My goal is simple to keep growing, keep learning, and build a career where I can make decisions backed by both numbers and purpose.
         </p>
       </motion.div>
 
